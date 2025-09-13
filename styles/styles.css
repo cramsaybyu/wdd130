@@ -1,8 +1,23 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+    box-shadow: 0 0 30px gray;
 }
 
+p {
+    padding:0;
+}
+
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid  rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color:  #eee;
+    color:  #333;
+    text-align: center;
+    
+}
 nav a {
     color: white;
     display: block;
