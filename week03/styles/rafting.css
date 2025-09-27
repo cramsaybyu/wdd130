@@ -41,7 +41,7 @@ header {
 }
 
 header img {
-    height: 20px;
+    height: 30px;
 }
 
 nav ul {
@@ -85,15 +85,15 @@ nav, p, section, article {
     height: auto;
 }
 
-.hero h1 {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
 
 .hero article {
@@ -122,7 +122,6 @@ footer {
 }
 .socialmedia a {
     text-decoration: none;
-    margin: 0 8px;
 }
 
 .socialmedia img {
