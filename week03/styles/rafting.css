@@ -32,6 +32,8 @@ header, main, footer {
 
 /* Header */
 header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 1rem;
@@ -115,16 +117,18 @@ h1 {
 
 /* Footer */
 footer {
-    text-align: center;
+    display: flex;
+    justify=content: space-between;
+    align-items: center;
     padding: 1rem;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
-.socialmedia a {
+.social-icons a {
     text-decoration: none;
 }
 
-.socialmedia img {
+.social-icons img {
     width: 5px; !important; /* Force override  */
     height: 5px; !important;
     display: inline-block;
