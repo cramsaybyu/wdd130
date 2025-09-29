@@ -1,58 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Cool Streams Rafting Co.</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-</head>
-
-<body>
-
-    <header>
-        <div class="logo">Logo</div>
-        <img src="images/logo.jpg" alt="Cool Streams Rafting Logo">
-
-        <!-- Wrap aside and main inside a div with class="grid" -->
+<meta name="description"
+        content="Describe your home page here using keywords like your name, the course, the purpose of the page.">
+    <meta name="author" content="Carlette Ramsay">
+     <!-- Wrap aside and main inside a div with class="grid" -->
         <div class="grid">
             <aside>
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Trips</a>
-                    <a href="#">Contact Us</a>
+                    <ul>
 
+                        <li><a href="index.html">Home</a>
+                        <li>
+                        </li><a href="about.html/">About Us</a></li>
+                        </li><a href="trips.html">Trips</a></li>
+                        </li><a href="contact.html">Contact Us</a></li>
 
-                </nav>
-    </header>
-    <section class="hero">
-        <main>
+                    </ul>
+                        <main>
             <div>
-
+                <img src="images/rafting-hero.jpg" alt="Rafting Adventure">
                 <h1>About Us | Cool River Rafting Co.</h1>
                 <article>
                     <img src="images/rapidrafting.jpg" alt="Rafting rapid customer" width="300" height="300">
                     <p>Cool River Rafting Company, we strive to give our customers the best and thrilling rafting
                         experience. Our team are experienced and certified instructors with top safety records.</p>
-                    <img src="images/rafting-hero.jpg" alt="Rafting Adventure">
-
+                </article>
             </div>
-            <section class="history">
+            <section>
                 <h2>History</h2>
-                <div class="history-content">
-                    <p>Established in 1974 with one location in Manchester, Central Jamaica. Operated by Basil Ramsay
-                        and his wife, Cynthia Vernon-Ramsay and one staff from the local area. After about ten years
-                        they opened
-                        a second shop in St. Ann Bay. The shop was located near the the Dunn's River Falls staffed by
-                        about four locals form the
-                        community. It is currently operated by Basil Ramsay's son and daughter after there retirement in
-                        2018.
-                    </p>
+                <p>Established in 1974 with one location in Manchester, Central Jamaica. Operated by Basil Ramsay and
+                    his
+                    wife, Cynthia Vernon-Ramsay and one staff from the local area. After about ten years they opened a
+                    second shop in St. Ann
+                    Bay. The shop was located near the the Dunn's River Falls staffed by about four locals form the
+                    community. It is currently operated by Basil Ramsay's son and daughter after there retirement in
+                    2018.
+                </p>
             </section>
             <section>
                 <h2>Adventure Awaits You!</h2>
-                </div>
+                <!-- You will add images here in the next assignment -->
             </section>
             <main>
 
@@ -73,4 +58,4 @@
                 </footer>
 </body>
 
-</html>
+</html> 
