@@ -19,7 +19,7 @@ tfoot {
 }
 
 thead th {
-    background-color: #000;
+    background-color: #000; /* This is shorthand HEX notation for #000000 */
     color: #fff;
 }
 
@@ -43,4 +43,6 @@ tfoot th {
 
 tfoot td {
     font-weight: bold;
+
 }
+ 
